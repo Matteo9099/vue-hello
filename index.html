@@ -18,10 +18,16 @@
         <div class="container">
             <h1 v-bind:class="classe">{{messaggio}}</h1>
             <img v-bind:src="image">
-            <button @click="changeFont">Cambia Stile</button>
+
+            <div class="btn">
+                <button @click="changeFont">Cambia Stile</button>
+                <button @click="changeImg">Cambia Immagine</button>
+            </div>
+
+
         </div>
 
-       
+
 
     </div>
 

@@ -30,3 +30,9 @@ button {
     color: #fff;
     border-radius: 5px;
 }
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}

@@ -14,8 +14,20 @@ const app = new Vue({
                 } else {
                     this.classe = 'text-normal';
                 }
-            }
+            },
+
+        // creo una funzione che al click cambi immagine
+            changeImg: function(){
+
+                if(this.image == 'img/logo_boolean_2.jpg'){
+                    this.image = 'img/boolean_logo.png';
+                } else {
+                    this.image = 'img/logo_boolean_2.jpg';
+                }
+
+            },
         }
+
     }
 
 );
