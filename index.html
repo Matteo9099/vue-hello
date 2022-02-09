@@ -16,8 +16,9 @@
     <div id="root">
 
         <div class="container">
-            <h1>{{messaggio}}</h1>
+            <h1 v-bind:class="classe">{{messaggio}}</h1>
             <img v-bind:src="image">
+            <button @click="changeFont">Cambia Stile</button>
         </div>
 
        

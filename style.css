@@ -11,3 +11,17 @@
     align-items: center;
     height: 100vh;
 }
+
+.text-italic{
+    font-style: italic;
+}
+
+.text-normal{
+    font-style: normal;
+}
+
+img{
+    margin: 20px 0;
+}
+
+button
